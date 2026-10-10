@@ -1,0 +1,6 @@
+{
+  "name": "u",
+  "version": "0.6.0",
+  "description": "Barra acima do prompt com % da tarefa, estimativa de duração e uso das janelas de 5 horas e semanal.",
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "automatizacoes",
+  "owner": { "name": "dandevddqm" },
+  "description": "Mods do Claude Code: previsão do tempo da janela de contexto e barra de progresso da tarefa.",
+  "plugins": [
+    {
+      "name": "previsao-do-contexto",
+      "source": "./previsao-do-contexto",
+      "description": "Previsão do tempo da janela de contexto, numa linha acima do prompt."
+    },
+    {
+      "name": "u",
+      "source": "./task-progress",
+      "description": "Barra acima do prompt com % da tarefa, estimativa e uso de 5h/semana."
+    }
+  ]
+}
