@@ -1,7 +1,9 @@
 {
   "name": "automatizacoes",
-  "owner": { "name": "dandevddqm" },
-  "description": "Mods do Claude Code: previsão do tempo da janela de contexto e barra de progresso da tarefa.",
+  "owner": {
+    "name": "dandevddqm"
+  },
+  "description": "Mods do Claude Code: previsão do contexto, barra de progresso da tarefa e janela de perguntas nas recomendações.",
   "plugins": [
     {
       "name": "previsao-do-contexto",
@@ -12,6 +14,11 @@
       "name": "u",
       "source": "./task-progress",
       "description": "Barra acima do prompt com % da tarefa, estimativa e uso de 5h/semana."
+    },
+    {
+      "name": "recomendar-perguntas",
+      "source": "./recomendar-perguntas",
+      "description": "Janela com 3 a 5+ perguntas ao fazer recomendações."
     }
   ]
 }

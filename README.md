@@ -1,13 +1,14 @@
 # automatizacoes
 
-Mods do Claude Code, em português, que desenham uma faixa acima do prompt.
+Mods do Claude Code, em português.
 
 | Mod | O que faz |
 | --- | --- |
 | `previsao-do-contexto` | Previsão do tempo da janela de contexto: ícone e palavra por faixa de uso (🌞 Limpo, ⛅ Nublado, ☔ Chuva, ⚡ Tempestade, 🔥 Compacta logo), porcentagem e tokens, mini gráfico dos últimos 12 turnos e quanto o último turno somou. |
 | `u` (pasta `task-progress`) | Barra da tarefa: etapas `E x/y`, progresso `T`, tempo decorrido e estimado, e uso das janelas de 5 horas e semanal na linha de status. |
+| `recomendar-perguntas` | Ao fazer uma recomendação, o Claude abre uma janela com 3 a 5 perguntas (ou mais), com opções, antes de seguir. |
 
-Com os dois instalados, a barra da tarefa e a previsão aparecem na mesma linha, as tarefas primeiro.
+Com `u` e `previsao-do-contexto` instalados, a barra da tarefa e a previsão aparecem na mesma linha, as tarefas primeiro.
 O `previsao-do-contexto` funciona sozinho; sem o `u`, mostra só a previsão.
 
 ## Instalação
@@ -17,6 +18,7 @@ No prompt de uma sessão do Claude Code **no terminal** (aceite com `y` adiciona
 ```
 /plugin install previsao-do-contexto --marketplace dandevddqm/automatizacoes
 /plugin install u --marketplace dandevddqm/automatizacoes
+/plugin install recomendar-perguntas --marketplace dandevddqm/automatizacoes
 ```
 
 Depois de instalado no terminal, no escopo de usuário, o mod também carrega no Claude Code desktop dessa máquina.
