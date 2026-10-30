@@ -18,6 +18,6 @@ export type Task = {
 
 declare module 'claude-code' {
   interface PluginState {
-    'u': { task: Task; limits: Limit[]; isHidden: boolean }
+    'task-progress': { task: Task; limits: Limit[]; isHidden: boolean }
   }
 }
