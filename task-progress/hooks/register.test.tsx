@@ -1,6 +1,6 @@
 import { expect, mock, test } from 'claude-code/testing'
 
-const PLUGIN = 'task-progress'
+const PLUGIN = 'u'
 const BAND = {
   component: 'AbovePrompt',
   props: { hasSurvey: false, isWorking: true, maxRows: 5 },

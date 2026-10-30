@@ -16,9 +16,9 @@ const idle: Task = {
   callsHistory: [],
 }
 
-const task = atom({ plugin: 'task-progress', key: 'task' } as const, idle)
-const limits = atom({ plugin: 'task-progress', key: 'limits' } as const, [] as Limit[])
-const isHidden = atom({ plugin: 'task-progress', key: 'isHidden' } as const, false)
+const task = atom({ plugin: 'u', key: 'task' } as const, idle)
+const limits = atom({ plugin: 'u', key: 'limits' } as const, [] as Limit[])
+const isHidden = atom({ plugin: 'u', key: 'isHidden' } as const, false)
 
 const label: Record<string, string> = { five_hour: '5', seven_day: 'S' }
 
